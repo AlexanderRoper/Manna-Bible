@@ -11,6 +11,8 @@
 		EE06A2A52684E7BA0046D283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06A2A42684E7BA0046D283 /* ContentView.swift */; };
 		EE06A2A72684E7C00046D283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2A62684E7C00046D283 /* Assets.xcassets */; };
 		EE06A2AA2684E7C00046D283 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2A92684E7C00046D283 /* Preview Assets.xcassets */; };
+		EE06A2B3268577B50046D283 /* recoleta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2B2268577B50046D283 /* recoleta.ttf */; };
+		EE06A2B5268578B70046D283 /* georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2B4268578B70046D283 /* georgia.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EE06A2A62684E7C00046D283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE06A2A92684E7C00046D283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE06A2AB2684E7C00046D283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE06A2B2268577B50046D283 /* recoleta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = recoleta.ttf; sourceTree = "<group>"; };
+		EE06A2B4268578B70046D283 /* georgia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = georgia.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		EE06A2A12684E7BA0046D283 /* Manna Bible */ = {
 			isa = PBXGroup;
 			children = (
+				EE06A2B1268577030046D283 /* fonts */,
 				EE06A2A22684E7BA0046D283 /* Manna_BibleApp.swift */,
 				EE06A2A42684E7BA0046D283 /* ContentView.swift */,
 				EE06A2A62684E7C00046D283 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				EE06A2A92684E7C00046D283 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE06A2B1268577030046D283 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE06A2B4268578B70046D283 /* georgia.ttf */,
+				EE06A2B2268577B50046D283 /* recoleta.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE06A2AA2684E7C00046D283 /* Preview Assets.xcassets in Resources */,
+				EE06A2B5268578B70046D283 /* georgia.ttf in Resources */,
 				EE06A2A72684E7C00046D283 /* Assets.xcassets in Resources */,
+				EE06A2B3268577B50046D283 /* recoleta.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

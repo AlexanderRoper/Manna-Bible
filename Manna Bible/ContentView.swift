@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color(red: 0.99, green: 0.96, blue: 0.89)
+            Text("Manna | Bible")
+            .font(Font.custom("Recoleta", size: 45))
+        }
+                .ignoresSafeArea() // 1
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
