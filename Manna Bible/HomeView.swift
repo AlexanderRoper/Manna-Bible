@@ -7,21 +7,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         ZStack {
-            Color(red: 0.99, green: 0.96, blue: 0.89)
-            Text("Manna | Bible")
+            Color("ScreenBackground")
+            Text("Manna Bible")
             .font(Font.custom("Recoleta", size: 45))
+            //.background(colorScheme == .dark ? Color.black : Color.white)
         }
                 .ignoresSafeArea() // 1
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
+            HomeView()
+                .preferredColorScheme(.light)
         }
     }
 }
