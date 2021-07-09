@@ -10,7 +10,12 @@ import SwiftUI
 struct Manna_BibleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeView()
+                ReadingView()
+                BookView()
+                SettingsView()
+            }
         }
     }
 }

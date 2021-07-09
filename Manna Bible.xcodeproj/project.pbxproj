@@ -8,22 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		EE06A2A32684E7BA0046D283 /* Manna_BibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06A2A22684E7BA0046D283 /* Manna_BibleApp.swift */; };
-		EE06A2A52684E7BA0046D283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06A2A42684E7BA0046D283 /* ContentView.swift */; };
+		EE06A2A52684E7BA0046D283 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06A2A42684E7BA0046D283 /* HomeView.swift */; };
 		EE06A2A72684E7C00046D283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2A62684E7C00046D283 /* Assets.xcassets */; };
 		EE06A2AA2684E7C00046D283 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2A92684E7C00046D283 /* Preview Assets.xcassets */; };
-		EE06A2B3268577B50046D283 /* recoleta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2B2268577B50046D283 /* recoleta.ttf */; };
-		EE06A2B5268578B70046D283 /* georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE06A2B4268578B70046D283 /* georgia.ttf */; };
+		EE390FA326867C6B00E5FD7C /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE390FA226867C6B00E5FD7C /* ReadingView.swift */; };
+		EE390FA526867E3C00E5FD7C /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE390FA426867E3C00E5FD7C /* BookView.swift */; };
+		EE390FA926867E7800E5FD7C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE390FA826867E7800E5FD7C /* SettingsView.swift */; };
+		EE6F23382693E619007671EF /* EBGaramond-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE6F23372693E619007671EF /* EBGaramond-ExtraBold.ttf */; };
+		EEE24C272697AF5400ED3F37 /* HKGrotesk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EEE24C262697AF5300ED3F37 /* HKGrotesk-Medium.otf */; };
+		EEE24C302697B52A00ED3F37 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEE24C2F2697B52A00ED3F37 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE06A29F2684E7BA0046D283 /* Manna Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manna Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE06A2A22684E7BA0046D283 /* Manna_BibleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manna_BibleApp.swift; sourceTree = "<group>"; };
-		EE06A2A42684E7BA0046D283 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE06A2A42684E7BA0046D283 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EE06A2A62684E7C00046D283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE06A2A92684E7C00046D283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE06A2AB2684E7C00046D283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE06A2B2268577B50046D283 /* recoleta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = recoleta.ttf; sourceTree = "<group>"; };
-		EE06A2B4268578B70046D283 /* georgia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = georgia.ttf; sourceTree = "<group>"; };
+		EE390FA226867C6B00E5FD7C /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
+		EE390FA426867E3C00E5FD7C /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		EE390FA826867E7800E5FD7C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE6F23372693E619007671EF /* EBGaramond-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EEE24C262697AF5300ED3F37 /* HKGrotesk-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Medium.otf"; sourceTree = "<group>"; };
+		EEE24C2F2697B52A00ED3F37 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +65,12 @@
 			children = (
 				EE06A2B1268577030046D283 /* fonts */,
 				EE06A2A22684E7BA0046D283 /* Manna_BibleApp.swift */,
-				EE06A2A42684E7BA0046D283 /* ContentView.swift */,
+				EE06A2A42684E7BA0046D283 /* HomeView.swift */,
+				EE390FA226867C6B00E5FD7C /* ReadingView.swift */,
+				EE390FA426867E3C00E5FD7C /* BookView.swift */,
+				EE390FA826867E7800E5FD7C /* SettingsView.swift */,
+				EEE24C2F2697B52A00ED3F37 /* Info.plist */,
 				EE06A2A62684E7C00046D283 /* Assets.xcassets */,
-				EE06A2AB2684E7C00046D283 /* Info.plist */,
 				EE06A2A82684E7C00046D283 /* Preview Content */,
 			);
 			path = "Manna Bible";
@@ -77,8 +87,8 @@
 		EE06A2B1268577030046D283 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				EE06A2B4268578B70046D283 /* georgia.ttf */,
-				EE06A2B2268577B50046D283 /* recoleta.ttf */,
+				EEE24C262697AF5300ED3F37 /* HKGrotesk-Medium.otf */,
+				EE6F23372693E619007671EF /* EBGaramond-ExtraBold.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -140,10 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE24C272697AF5400ED3F37 /* HKGrotesk-Medium.otf in Resources */,
+				EE6F23382693E619007671EF /* EBGaramond-ExtraBold.ttf in Resources */,
 				EE06A2AA2684E7C00046D283 /* Preview Assets.xcassets in Resources */,
-				EE06A2B5268578B70046D283 /* georgia.ttf in Resources */,
+				EEE24C302697B52A00ED3F37 /* Info.plist in Resources */,
 				EE06A2A72684E7C00046D283 /* Assets.xcassets in Resources */,
-				EE06A2B3268577B50046D283 /* recoleta.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE06A2A52684E7BA0046D283 /* ContentView.swift in Sources */,
+				EE390FA926867E7800E5FD7C /* SettingsView.swift in Sources */,
+				EE06A2A52684E7BA0046D283 /* HomeView.swift in Sources */,
 				EE06A2A32684E7BA0046D283 /* Manna_BibleApp.swift in Sources */,
+				EE390FA326867C6B00E5FD7C /* ReadingView.swift in Sources */,
+				EE390FA526867E3C00E5FD7C /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Manna Bible/Manna Bible.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Manna Bible/Preview Content\"";
 				DEVELOPMENT_TEAM = FG7CG2479W;
@@ -305,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Manna Bible/Manna Bible.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Manna Bible/Preview Content\"";
 				DEVELOPMENT_TEAM = FG7CG2479W;
