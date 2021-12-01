@@ -1,7 +1,3 @@
-# Prayermatch
-
-Fellowship and support through prayer.
-
-## Getting Started
+# Manna Bible
 
 Coming soon...
