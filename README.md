@@ -1,6 +1,6 @@
-# Manna Bible
+# Prayermatch
 
-A study bible with no compromises  in depth or simplicity.
+Fellowship and support through prayer.
 
 ## Getting Started
 
